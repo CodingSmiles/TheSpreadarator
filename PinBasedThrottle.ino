@@ -35,6 +35,17 @@ void rampUpAll() {
   eight.write(104);
   nine.write(117);
   ten.write(130);
+  delay(5000);
+  one.write(0);
+  two.write(0);
+  three.write(0);
+  four.write(0);
+  five.write(0);
+  six.write(0);
+  seven.write(0);
+  eight.write(0);
+  nine.write(0);
+  ten.write(0);
 }
 
 void loop() {
